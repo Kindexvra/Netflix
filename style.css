@@ -2,12 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+} .dark{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.699);
 }
 body {
     background-image: url(./fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.1);
+	
 
 }
 
@@ -22,11 +26,6 @@ body {
 }
 .buttons_header{
     margin-right: 10rem;
-}
-select{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    
 }
 .logo {
     width: 10.5rem;
@@ -79,7 +78,11 @@ select{
     background: rgb(185, 9, 18);
 	color: #fff;
 }
+option {
+	background: black
+}
 select {
+	margin-left: 1rem;
     background: rgba(229, 9, 20, 0);
 	border: solid 0.5px white;
 	border-radius: 0.31em;
