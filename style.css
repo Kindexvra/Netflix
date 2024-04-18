@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+header {
+    background-image: url(./fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo_header {
+    margin-left: 10rem;
+}
+.buttons_header{
+    margin-right: 10rem;
+}
+.logo {
+    width: 10rem;
+}
