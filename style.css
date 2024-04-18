@@ -1,8 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
-    background-color: black;
     background-image: url(./fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 .header{
@@ -17,6 +23,86 @@ body {
 .buttons_header{
     margin-right: 10rem;
 }
+select{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
 .logo {
-    width: 10rem;
+    width: 10.5rem;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 10%;
+}
+.title_secundario{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+.content {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.button_comenzar{
+	background: rgb(229, 9, 20);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	margin-top: 2rem;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.button_comenzar:hover {
+	background: rgb(185, 9, 18);
+	color: #fff;
+}
+.button_global {
+    background: rgb(229, 9, 20);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.9em 1.5em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 0.8rem;
+}
+.button_global:hover {
+    background: rgb(185, 9, 18);
+	color: #fff;
+}
+select {
+    background: rgba(229, 9, 20, 0);
+	border: solid 0.5px white;
+	border-radius: 0.31em;
+	padding: 0.5em 1.5em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 0.8rem;
+}
+.text {
+	margin-top: 1rem;
+	font-size: 1.2rem;
+}
+.input_email{
+	background: rgba(0, 0, 0, 0.164);
+	border: solid 1px rgba(255, 255, 255, 0.616);
+	border-radius: 0.31em;
+	padding: 1.2em 1.5em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 0.8rem;
+	width: 20%;
 }
